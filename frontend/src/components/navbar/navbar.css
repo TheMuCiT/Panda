@@ -1,0 +1,66 @@
+.navbar {
+     margin-top: 70px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.2rem;
+     top: 0;
+}
+
+.navbarContainer {
+     display: flex;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.navbarLeft {
+     flex: 30%;
+}
+
+.navbarCenter {
+     flex: 40%;
+     font-size: var(--header);
+     display: flex;
+     justify-content: space-between;
+     margin: 0 10px;
+}
+
+.navbarCenterLink {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--color-white);
+}
+
+.navbarRight {
+     flex: 30%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.navbarRightIcon {
+     display: flex;
+     align-items: center;
+     margin-left: 35px;
+}
+
+.navbarCenterIcon {
+     width: 100px;
+     position: relative;
+}
+
+.navbarCenterIconBlob {
+     position: absolute;
+     top: -55px;
+     left: -20px;
+}
+
+.navbarCenterIconPanda {
+     width: 100px;
+     height: auto;
+     top: -35px;
+     left: 0px;
+     position: absolute;
+}

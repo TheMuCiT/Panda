@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="100" viewBox="0 0 335 100">
+  <g id="Group_6301" data-name="Group 6301" transform="translate(-8223 -3161)">
+    <g id="Group_6293" data-name="Group 6293" transform="translate(8203 2790)">
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="335" height="100" rx="20" transform="translate(20 371)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="24" cy="24" r="24" transform="translate(8489 3187)" fill="rgba(255,193,7,0.2)"/>
+    <path id="Path_7116" data-name="Path 7116" d="M317,415h-2v-2H305v2h-2a2.006,2.006,0,0,0-2,2v1a4.991,4.991,0,0,0,4.39,4.94A5.009,5.009,0,0,0,309,425.9V429h-4v2h10v-2h-4v-3.1a5.009,5.009,0,0,0,3.61-2.96A4.991,4.991,0,0,0,319,418v-1A2.006,2.006,0,0,0,317,415Zm-14,3v-1h2v3.82A3.01,3.01,0,0,1,303,418Zm14,0a3.01,3.01,0,0,1-2,2.82V417h2Z" transform="translate(8203 2790)" fill="#ffc107"/>
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="56" height="56" rx="16" transform="translate(8247 3183)" fill="#5488f1"/>
+    <path id="Path_7117" data-name="Path 7117" d="M71.918,430V415.973h-.07l-4.371,3.07V416.2l4.418-3.105h2.988V430Z" transform="translate(8203 2790)" fill="#fff"/>
+    <g id="Group_6300" data-name="Group 6300" transform="translate(0 2)">
+      <text id="Demokrasi" transform="translate(8317 3197)" fill="#242629" font-size="18" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">Demokrasi</tspan></text>
+      <text id="Demokrasi_hakkında_her_şey" data-name="Demokrasi hakkında her şey" transform="translate(8317 3211)" fill="#797f8a" font-size="12" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="0" y="0">Demokrasi hakkında her şey</tspan></text>
+      <g id="Group_6299" data-name="Group 6299" transform="translate(-0.5)">
+        <rect id="Rectangle_77" data-name="Rectangle 77" width="53.5" height="16.5" rx="8.25" transform="translate(8317.5 3222.5)" fill="#fff" stroke="#e7eefb" stroke-width="0.5"/>
+        <text id="_4_Görevler" data-name="4 Görevler" transform="translate(8328 3233)" fill="#5488f1" font-size="7" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">4 Görevler</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

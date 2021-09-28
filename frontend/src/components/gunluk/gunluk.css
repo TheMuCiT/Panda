@@ -1,0 +1,42 @@
+.gunluk {
+     margin-top: 175px;
+     display: flex;
+     justify-content: center;
+}
+.gunlukContainer {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.gunlukItems {
+     flex: 33%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.gunlukItem {
+     width: 344px;
+     height: 235px;
+     background: transparent linear-gradient(221deg, #007fff 0%, #064b9296 22%, #0d0d0d 48%, #0d0d0d 100%) 0% 0%
+          no-repeat padding-box;
+     border-radius: 32px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+/* TEXT */
+
+.gunlukItemHeader {
+     font-size: var(--box);
+     color: var(--color-white);
+}
+
+.gunlukItemText {
+     font-size: var(--mediumText);
+     color: var(--color-white);
+}

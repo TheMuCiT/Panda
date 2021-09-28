@@ -1,0 +1,112 @@
+.ogren {
+     margin-top: 390px;
+     display: flex;
+     justify-content: center;
+     background-color: #141819;
+     height: 689px;
+}
+
+.ogrenContainer {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.ogrenLeft {
+     flex: 50%;
+     display: flex;
+     flex-direction: column;
+}
+
+.ogrenLeftHeader {
+     margin-top: 190px;
+     color: var(--color-white);
+     font-size: var(--herderHuk);
+}
+
+.ogrenLeftText {
+     margin-top: 10px;
+     font: normal normal normal 17px/30px Poppins;
+     width: 73%;
+     text-align: rigleftht;
+     color: var(--color-white);
+}
+
+.ogrenLeftText.bold {
+     margin-top: 0px;
+     font: normal normal 600 17px/30px Poppins;
+}
+
+.ogrenLeftIcons {
+     margin-top: 35px;
+     display: flex;
+     justify-content: space-between;
+     max-width: 668px;
+}
+
+.ogrenLeftIcon {
+     width: 291px;
+     height: 92px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: var(--color-white) 0% 0% no-repeat padding-box;
+     border-radius: 16px;
+     margin-right: 43px;
+}
+
+.ogrenLeftIconLeft {
+     flex: 35%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.ogrenLeftIconIcon path {
+     fill: black;
+}
+
+.ogrenLeftIconRight {
+     flex: 65%;
+}
+
+.ogrenLeftIconRightHeader {
+     font: normal normal 200 13px/20px Poppins;
+     color: black;
+     opacity: 0.5;
+}
+
+.ogrenLeftIconRightText {
+     font: normal normal normal 26px/36px Poppins;
+     color: black;
+}
+
+.ogrenRight {
+     flex: 50%;
+     display: flex;
+     position: relative;
+}
+
+.ogrenRightIMG,
+.ogrenRightAchievement,
+.ogrenRightBox {
+     position: absolute;
+}
+
+.ogrenRightIMG {
+     width: 435px;
+     height: auto;
+     top: 10px;
+     left: 185px;
+}
+
+.ogrenRightAchievement {
+     top: 485px;
+     left: 50px;
+}
+
+.ogrenRightBox {
+     right: 0;
+     top: 135px;
+}

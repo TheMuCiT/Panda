@@ -1,0 +1,93 @@
+.user {
+     margin-top: 60px;
+     display: flex;
+     justify-content: center;
+}
+
+.userContainer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.userHeader {
+     color: var(--color-white);
+     font-size: var(--herderHuk);
+}
+
+.userMain {
+     margin-top: 130px;
+     display: flex;
+     width: 100%;
+}
+
+.userLeft {
+     flex: 46%;
+     justify-content: center;
+     display: flex;
+}
+
+.userLeftItem {
+     width: 544px;
+     height: 145px;
+     border-radius: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.userLeftItem.selected {
+     background: #161616 0% 0% no-repeat padding-box;
+}
+
+.userLeftItemIMG {
+     flex: 29%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.userLeftItemText {
+     flex: 81%;
+}
+
+.userLeftItemTextHeader {
+     font-size: var(--Name);
+     color: var(--color-white);
+}
+
+.userLeftItemTextAbout {
+     font-size: var(--About);
+     color: var(--color-white);
+     opacity: 0.5;
+}
+
+.userRight {
+     flex: 54%;
+}
+
+.userRightHeader {
+     padding-left: 20px;
+     font-size: var(--herderHuk);
+     color: var(--color-white);
+}
+
+.userRightStar {
+     padding-left: 20px;
+     margin-top: 20px;
+}
+
+.userRightText {
+     margin-top: 10px;
+     padding-left: 20px;
+     font-size: var(--header);
+     color: var(--color-white);
+}
+
+.userRightText.second {
+     width: 85%;
+     margin-top: 50px;
+}
