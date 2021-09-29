@@ -2,8 +2,6 @@ import React from 'react'
 
 import { ReactComponent as Google } from '../../icons/google.svg'
 import { ReactComponent as Apple } from '../../icons/apple.svg'
-
-import Section1 from '../../images/4section1.png'
 import Section2 from '../../images/4section2.png'
 import Section3 from '../../images/haydi1.png'
 import Section4 from '../../images/haydi2.png'
