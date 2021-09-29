@@ -27,6 +27,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     cursor: default;
 }
 
 /* TEXT */
@@ -56,7 +57,7 @@
      }
      .gunlukItems {
           flex: 100%;
-          margin-bottom: 24px;
+          margin-bottom: 44px;
           width: 344px;
      }
 }

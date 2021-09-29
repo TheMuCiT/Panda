@@ -25,14 +25,16 @@
      font-size: var(--herderHuk);
      line-height: 1.2;
      width: 90%;
+     cursor: default;
 }
 
 .haydiLeftText {
      margin-top: 10px;
      font: normal normal normal 17px/30px Poppins;
      width: 73%;
-     text-align: rigleftht;
+     text-align: left;
      color: var(--color-white);
+     cursor: default;
 }
 
 .haydiRight {
@@ -53,10 +55,15 @@
      width: 350px;
      height: auto;
      position: absolute;
-     top: 220px;
+     bottom: 0;
      left: 0;
 }
 .haydiRightMobile {
+     display: none;
+}
+
+.haydiRightSection3,
+.haydiRightSection4 {
      display: none;
 }
 
@@ -151,6 +158,22 @@
      }
 
      .haydiRightMobile {
-          display: none;
+          display: block;
+     }
+     .haydiRightSection3,
+     .haydiRightSection4 {
+          display: block;
+          position: absolute;
+          width: 250px;
+     }
+
+     .haydiRightSection3 {
+          top: 0;
+          left: 0;
+     }
+
+     .haydiRightSection4 {
+          top: 0;
+          right: 0;
      }
 }

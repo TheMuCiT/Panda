@@ -29,10 +29,12 @@
 .merhabaLeftHeader {
      font-size: var(--Huge);
      line-height: 1.1;
+     cursor: default;
 }
 
 .merhabaLeftText {
      color: var(--color-white);
+     cursor: default;
 }
 .merhabaLeftText.color {
      color: var(--color-blue);
@@ -44,6 +46,7 @@
      color: var(--color-white);
      line-height: 1.8;
      font-size: var(--small);
+     cursor: default;
 }
 
 /* BUTTON */

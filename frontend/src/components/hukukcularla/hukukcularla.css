@@ -69,6 +69,7 @@
 .hukukcularlaRightHeader {
      color: var(--color-white);
      font-size: var(--herderHuk);
+     cursor: default;
 }
 
 .hukukcularlaRightText {
@@ -76,6 +77,7 @@
      font: normal normal normal 17px/30px Poppins;
      width: 73%;
      text-align: right;
+     cursor: default;
      color: var(--color-white);
 }
 
@@ -207,6 +209,7 @@
 
      .hukukcularlaRightIcon {
           margin-bottom: 24px;
+          margin-left: 0;
      }
 
      .test {

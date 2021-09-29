@@ -23,14 +23,16 @@
      margin-top: 190px;
      color: var(--color-white);
      font-size: var(--herderHuk);
+     cursor: default;
 }
 
 .ogrenLeftText {
      margin-top: 10px;
      font: normal normal normal 17px/30px Poppins;
      width: 73%;
-     text-align: rigleftht;
+     text-align: left;
      color: var(--color-white);
+     cursor: default;
 }
 
 .ogrenLeftText.bold {
@@ -113,6 +115,9 @@
 }
 
 @media only screen and (max-width: 1400px) {
+     .ogren {
+          height: 500px;
+     }
      .ogrenContainer {
           width: 95%;
      }
@@ -155,6 +160,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+     .ogren {
+          height: 600px;
+     }
      .ogrenLeftIcons {
           display: flex;
           flex-direction: column;

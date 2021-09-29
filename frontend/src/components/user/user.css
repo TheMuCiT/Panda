@@ -16,6 +16,7 @@
 .userHeader {
      color: var(--color-white);
      font-size: var(--herderHuk);
+     cursor: default;
 }
 
 .userMain {
@@ -37,6 +38,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     cursor: default;
 }
 
 .userLeftItem.selected {
@@ -57,11 +59,13 @@
 .userLeftItemTextHeader {
      font-size: var(--Name);
      color: var(--color-white);
+     cursor: default;
 }
 
 .userLeftItemTextAbout {
      font-size: var(--About);
      color: var(--color-white);
+     cursor: default;
      opacity: 0.5;
 }
 
@@ -71,6 +75,7 @@
 
 .userRightHeader {
      padding-left: 20px;
+     cursor: default;
      font-size: var(--herderHuk);
      color: var(--color-white);
 }
@@ -85,6 +90,7 @@
      padding-left: 20px;
      font-size: var(--header);
      color: var(--color-white);
+     cursor: default;
 }
 
 .userRightText.second {

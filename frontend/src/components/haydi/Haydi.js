@@ -2,10 +2,11 @@ import React from 'react'
 
 import { ReactComponent as Google } from '../../icons/google.svg'
 import { ReactComponent as Apple } from '../../icons/apple.svg'
-import { ReactComponent as HaydiSVG } from '../../icons/haydi.svg'
 
 import Section1 from '../../images/4section1.png'
 import Section2 from '../../images/4section2.png'
+import Section3 from '../../images/haydi1.png'
+import Section4 from '../../images/haydi2.png'
 
 import './haydi.css'
 
@@ -49,10 +50,11 @@ const Haydi = () => {
                          </div>
                     </div>
                     <div className='haydiRight'>
-                         <img src={Section1} alt='' className='haydiRightSection1' />
+                         <img src={Section4} alt='' className='haydiRightSection1' />
                          <img src={Section2} alt='' className='haydiRightSection2' />
                          <div className='haydiRightMobile'>
-                              <HaydiSVG />
+                              <img src={Section3} alt='' className='haydiRightSection3' />
+                              <img src={Section4} alt='' className='haydiRightSection4' />
                          </div>
                     </div>
                </div>
