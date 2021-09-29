@@ -1,7 +1,10 @@
 import React from 'react'
 
 import { ReactComponent as Stars } from '../../icons/stars.svg'
-import { ReactComponent as Person1 } from '../../icons/person1.svg'
+
+import Person1 from '../../images/Ellipse4.png'
+import Person2 from '../../images/Ellipse5.png'
+import Person3 from '../../images/Ellipse6.png'
 
 import './user.css'
 
@@ -15,7 +18,7 @@ const User = () => {
                               <div className='userLeftList'>
                                    <div className='userLeftItem selected'>
                                         <div className='userLeftItemIMG'>
-                                             <Person1 />
+                                             <img src={Person1} alt='Error' className='userLeftItemIMGPNG' />
                                         </div>
 
                                         <div className='userLeftItemText'>
@@ -25,7 +28,7 @@ const User = () => {
                                    </div>
                                    <div className='userLeftItem'>
                                         <div className='userLeftItemIMG'>
-                                             <Person1 />
+                                             <img src={Person2} alt='Error' className='userLeftItemIMGPNG' />
                                         </div>
 
                                         <div className='userLeftItemText'>
@@ -35,7 +38,7 @@ const User = () => {
                                    </div>
                                    <div className='userLeftItem'>
                                         <div className='userLeftItemIMG'>
-                                             <Person1 />
+                                             <img src={Person3} alt='Error' className='userLeftItemIMGPNG' />
                                         </div>
 
                                         <div className='userLeftItemText'>

@@ -54,6 +54,7 @@
      background: var(--color-white) 0% 0% no-repeat padding-box;
      border-radius: 16px;
      margin-right: 43px;
+     cursor: pointer;
 }
 
 .ogrenLeftIconLeft {
@@ -74,7 +75,7 @@
 .ogrenLeftIconRightHeader {
      font: normal normal 200 13px/20px Poppins;
      color: black;
-     opacity: 0.5;
+     opacity: 0.7;
 }
 
 .ogrenLeftIconRightText {
@@ -107,6 +108,157 @@
 }
 
 .ogrenRightBox {
-     right: 0;
+     left: 450px;
      top: 135px;
+}
+
+@media only screen and (max-width: 1400px) {
+     .ogrenContainer {
+          width: 95%;
+     }
+
+     .ogrenLeftHeader {
+          font-size: 44px;
+     }
+
+     .ogrenLeftIcons {
+          max-width: 572px;
+     }
+
+     .ogrenLeftIcon {
+          width: 250px;
+          height: 79px;
+          margin-right: 36px;
+     }
+
+     .ogrenRightIMG {
+          width: 315px;
+          top: 10px;
+          left: 125px;
+     }
+
+     .ogrenRightAchievement {
+          width: 182px;
+          top: 350px;
+          left: 60px;
+     }
+
+     .ogrenRightBox {
+          width: 242px;
+          left: 320px;
+          top: 100px;
+     }
+
+     .ogrenLeftHeader {
+          margin-top: 50px;
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+     .ogrenLeftIcons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .ogrenLeftIcon {
+          margin-bottom: 24px;
+          margin-right: 0;
+     }
+
+     .ogrenLeft {
+          flex: 45%;
+     }
+
+     .ogrenRight {
+          flex: 55%;
+     }
+}
+
+@media only screen and (max-width: 1000px) {
+     .ogren {
+          margin-top: 200px;
+          height: 950px;
+     }
+
+     .ogrenContainer {
+          flex-direction: column-reverse;
+          display: flex;
+          justify-content: flex-end;
+     }
+
+     .ogrenLeftHeader {
+          margin-top: 80px;
+          text-align: center;
+     }
+
+     .ogrenRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          margin-bottom: -100px;
+     }
+
+     .ogrenLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .ogrenLeftHeader {
+          font-size: 36px;
+     }
+
+     .ogrenLeftText {
+          font-size: 15px;
+          text-align: center;
+     }
+
+     .hukukcularlaRightIcon {
+          margin-bottom: 24px;
+     }
+
+     .ogrenRightIMG {
+          width: 315px;
+          top: 0px;
+          left: 0;
+     }
+
+     .ogrenRightAchievement {
+          width: 182px;
+          top: 300px;
+          left: -50px;
+     }
+
+     .ogrenRightBox {
+          width: 242px;
+          left: 200px;
+          top: 100px;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     .ogrenRightIMG {
+          width: 211px;
+          top: 0px;
+          left: 70px;
+     }
+
+     .ogrenRightAchievement {
+          width: 162px;
+          top: 200px;
+          left: 0;
+     }
+
+     .ogrenRightBox {
+          width: 122px;
+          left: 200px;
+          top: 0;
+     }
+
+     .ogrenLeftHeader {
+          margin-top: 0px;
+     }
 }

@@ -1,5 +1,5 @@
 .hukukcularla {
-     margin-top: 180px;
+     margin-top: 200px;
      display: flex;
      justify-content: center;
 }
@@ -14,7 +14,14 @@
 .hukukcularlaLeft {
      flex: 50%;
      display: flex;
+     align-items: flex-start;
+     justify-content: center;
+}
+
+.test {
      position: relative;
+     width: 100%;
+     height: 10px;
 }
 
 .hukukcularlaLeftBlob,
@@ -25,25 +32,28 @@
 }
 
 .hukukcularlaLeftBlob {
-     top: -25px;
-     right: 75px;
+     top: -20px;
+     left: -60px;
+     width: 100%;
 }
 
 .hukukcularlaLeftIMG {
-     width: 448px;
+     width: 62%;
      height: auto;
-     top: 75px;
-     left: 60px;
+     top: 80px;
+     left: 70px;
 }
 
 .hukukcularlaLeftMessage {
      top: 180px;
      left: 250px;
+     width: 75%;
 }
 
 .hukukcularlaLeftChat {
      top: 370px;
-     left: -25px;
+     left: -55px;
+     width: 75%;
 }
 
 .hukukcularlaRight {
@@ -90,6 +100,7 @@
      background: #141819 0% 0% no-repeat padding-box;
      border-radius: 16px;
      margin-left: 43px;
+     cursor: pointer;
 }
 
 .hukukcularlaRightIconLeft {
@@ -112,4 +123,146 @@
 .hukukcularlaRightIconRightText {
      font: normal normal normal 26px/36px Poppins;
      color: var(--color-white);
+}
+
+@media only screen and (max-width: 1400px) {
+     .hukukcularlaContainer {
+          width: 95%;
+     }
+
+     .hukukcularlaRightHeader {
+          font-size: 44px;
+     }
+
+     .hukukcularlaRightIcons {
+          max-width: 572;
+     }
+
+     .hukukcularlaRightIcon {
+          width: 250px;
+          height: 79px;
+          margin-left: 36px;
+     }
+
+     .hukukcularlaLeftIMG {
+          width: 304px;
+          top: 160px;
+          left: 10px;
+     }
+
+     .hukukcularlaLeftMessage {
+          width: 297px;
+          top: 200px;
+          left: 150px;
+     }
+
+     .hukukcularlaLeftChat {
+          width: 263px;
+          top: 250px;
+          left: -25px;
+     }
+
+     .hukukcularlaLeftBlob {
+          width: 461px;
+     }
+}
+
+@media only screen and (max-width: 1000px) {
+     .hukukcularlaContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+     }
+
+     .hukukcularlaLeft {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 403px;
+          width: 100%;
+          margin-bottom: -100px;
+     }
+
+     .hukukcularlaRight {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .hukukcularlaRightHeader {
+          font-size: 36px;
+          text-align: center;
+     }
+
+     .hukukcularlaRightText {
+          font-size: 15px;
+          text-align: center;
+     }
+
+     .hukukcularlaRightIcons {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .hukukcularlaRightIcon {
+          margin-bottom: 24px;
+     }
+
+     .test {
+          height: 403px;
+          display: flex;
+          width: 349px;
+          position: relative;
+     }
+
+     .hukukcularlaLeftBlob {
+          width: 410px;
+          top: -40%;
+          left: -25px;
+     }
+
+     .hukukcularlaLeftIMG {
+          width: 273px;
+          top: 60px;
+          left: 40px;
+     }
+
+     .hukukcularlaLeftMessage {
+          width: 280px;
+          top: 80px;
+          left: 160px;
+     }
+
+     .hukukcularlaLeftChat {
+          width: 245px;
+          top: 120px;
+          left: 20px;
+     }
+
+     @media only screen and (max-width: 900px) {
+          .hukukcularlaLeftBlob {
+               width: 308px;
+               top: -40%;
+               left: 30px;
+          }
+
+          .hukukcularlaLeftIMG {
+               width: 203px;
+               top: 80px;
+               left: 80px;
+          }
+
+          .hukukcularlaLeftMessage {
+               width: 198px;
+               top: 80px;
+               left: 160px;
+          }
+
+          .hukukcularlaLeftChat {
+               width: 175px;
+               top: 45px;
+               left: 50px;
+          }
+     }
 }

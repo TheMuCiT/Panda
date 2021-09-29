@@ -44,6 +44,7 @@
      display: flex;
      align-items: center;
      margin-left: 35px;
+     cursor: pointer;
 }
 
 .navbarCenterIcon {
@@ -63,4 +64,102 @@
      top: -35px;
      left: 0px;
      position: absolute;
+}
+
+.navbarMobile {
+     display: none;
+}
+
+.navbarMobileButton {
+     display: none;
+}
+
+.MobileDN {
+     display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+     .navbarLeft,
+     .navbarRight {
+          flex: 20%;
+     }
+
+     .navbarCenter {
+          flex: 80%;
+     }
+}
+
+@media only screen and (max-width: 800px) {
+     .navbarLeft {
+          flex: 0%;
+     }
+     .navbarRight {
+          flex: 20%;
+     }
+
+     .navbarCenter {
+          flex: 80%;
+     }
+}
+
+@media only screen and (max-width: 700px) {
+     .navbarMobile {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 50px;
+     }
+
+     .navbarMobileButton {
+          display: flex;
+          margin-left: 50px;
+     }
+
+     .navbarContainer {
+          display: none;
+     }
+
+     .navbarMenu {
+          background-color: #0d0d0d;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          width: 100%;
+          height: 100%;
+          z-index: 700;
+          position: absolute;
+          top: 200px;
+          left: -100%;
+          opacity: 1;
+          transition: all 0.5s ease;
+          padding-top: 50px;
+          overflow: hidden;
+     }
+
+     .navbarMenu.active {
+          top: 200px;
+          left: 0;
+          opacity: 1;
+          transition: all 0.5s ease;
+     }
+
+     .navbarMobileTop {
+          display: flex;
+     }
+
+     .navbarMobileMain {
+          width: 80%;
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+     }
+
+     .navbarCenterLink {
+          font: normal normal 300 20px/30px Poppins;
+          text-align: left;
+          margin-bottom: 40px;
+     }
 }

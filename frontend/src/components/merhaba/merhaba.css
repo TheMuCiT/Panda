@@ -1,5 +1,5 @@
 .merhaba {
-     margin-top: 150px;
+     margin-top: 200px;
      display: flex;
      justify-content: center;
 }
@@ -59,6 +59,7 @@
      color: var(--color-white);
      border-radius: 8px;
      background-color: var(--color-blue);
+     cursor: pointer;
 }
 
 /* RIGHT */
@@ -68,12 +69,12 @@
 }
 
 .merhabaRightImageSecond {
-     bottom: 10px;
+     top: 110px;
      right: 40%;
      position: absolute;
 }
 
-.merhabaRightImageFirstIMG {
+.merhabaRightImageFirst {
      top: 0;
      right: 10%;
      position: absolute;
@@ -85,4 +86,103 @@
 
 .merhabaRightImageSecondIMG {
      width: 273px;
+}
+
+@media only screen and (max-width: 1400px) {
+     .merhabaLeftHeader {
+          font-size: var(--mobileHeader);
+     }
+
+     .merhabaLeftButton {
+          width: 292px;
+          font-size: var(--small);
+          height: 72px;
+     }
+
+     .merhabaContainer {
+          width: 95%;
+     }
+
+     .merhabaLeftMiddle {
+          width: 85%;
+     }
+
+     .merhabaRightImageFirstIMG {
+          width: 282px;
+     }
+
+     .merhabaRightImageSecondIMG {
+          width: 227px;
+     }
+
+     .merhabaRightBackgroundPNG {
+          width: 500px;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     .merhabaContainer {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: flex-end;
+          position: relative;
+     }
+
+     .merhabaRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .merhabaRightImageFirstIMG {
+          width: 158px;
+     }
+
+     .merhabaRightImageSecondIMG {
+          width: 127px;
+     }
+
+     .merhabaRightBackgroundPNG {
+          width: 281px;
+     }
+
+     .merhabaRightImageSecond {
+          top: 60px;
+          right: calc(50% - 10px);
+     }
+
+     .merhabaRightImageFirst {
+          top: 0;
+          right: calc(50% - 110px);
+     }
+
+     .merhabaLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .merhabaLeftHeader {
+          text-align: center;
+     }
+
+     .merhabaLeftMiddle {
+          text-align: center;
+          width: 70%;
+     }
+
+     .merhabaLeftHeader {
+          font-size: 36px;
+     }
+
+     .merhabaLeftMiddle {
+          font-size: 15px;
+     }
+
+     .merhabaLeftButton {
+          width: 192px;
+          height: 47px;
+          font-size: 11px;
+     }
 }

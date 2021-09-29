@@ -1,5 +1,5 @@
 .user {
-     margin-top: 60px;
+     margin-top: 200px;
      display: flex;
      justify-content: center;
 }
@@ -90,4 +90,77 @@
 .userRightText.second {
      width: 85%;
      margin-top: 50px;
+}
+
+@media only screen and (max-width: 1400px) {
+     .userContainer {
+          width: 95%;
+     }
+
+     .userHeader {
+          font-size: 44px;
+     }
+
+     .userRightHeader {
+          text-align: center;
+          font-size: 44px;
+     }
+
+     @media only screen and (max-width: 1000px) {
+          .userMain {
+               display: flex;
+               flex-direction: column;
+               justify-content: flex-end;
+          }
+
+          .userRight {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+          }
+
+          .userRightText {
+               text-align: center;
+          }
+
+          .userRightText.second {
+               text-align: center;
+               width: 100%;
+          }
+     }
+}
+
+@media only screen and (max-width: 800px) {
+     .userLeftItem {
+          width: 342px;
+          height: 112px;
+     }
+     .userLeftItemIMGPNG {
+          width: 58px;
+          height: 58px;
+     }
+
+     .userLeftItemTextHeader {
+          font-size: 22px;
+     }
+
+     .userLeftItemTextAbout {
+          font-size: 17px;
+     }
+
+     .userRight {
+          margin-top: 20px;
+     }
+
+     .userRightHeader {
+          font-size: 36px;
+     }
+
+     .userRightStar {
+          margin-bottom: 10px;
+     }
+
+     .userRightText {
+          font-size: 20px;
+     }
 }

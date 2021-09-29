@@ -2,6 +2,7 @@ import React from 'react'
 
 import { ReactComponent as Google } from '../../icons/google.svg'
 import { ReactComponent as Apple } from '../../icons/apple.svg'
+import { ReactComponent as HaydiSVG } from '../../icons/haydi.svg'
 
 import Section1 from '../../images/4section1.png'
 import Section2 from '../../images/4section2.png'
@@ -9,6 +10,13 @@ import Section2 from '../../images/4section2.png'
 import './haydi.css'
 
 const Haydi = () => {
+     const HandlerApple = () => {
+          window.open('https://apps.apple.com/de/app/pandalan-hukuk-%C3%B6%C4%9Fren/id1563681531')
+     }
+
+     const HandlerGoogle = () => {
+          window.open('https://play.google.com/store/apps/details?id=com.lawquizgame&hl=de&gl=US')
+     }
      return (
           <div className='haydi'>
                <div className='haydiContainre'>
@@ -20,7 +28,7 @@ const Haydi = () => {
                          </div>
                          <div className='haydiLeftText bold'>Uygulamayı Edin</div>
                          <div className='ogrenLeftIcons'>
-                              <div className='ogrenLeftIcon'>
+                              <div className='ogrenLeftIcon' onClick={HandlerApple}>
                                    <div className='ogrenLeftIconLeft'>
                                         <Apple className='ogrenLeftIconIcon' />
                                    </div>
@@ -29,7 +37,7 @@ const Haydi = () => {
                                         <div className='ogrenLeftIconRightText'>App store</div>
                                    </div>
                               </div>
-                              <div className='ogrenLeftIcon'>
+                              <div className='ogrenLeftIcon' onClick={HandlerGoogle}>
                                    <div className='ogrenLeftIconLeft'>
                                         <Google className='ogrenLeftIconIcon' />
                                    </div>
@@ -43,6 +51,9 @@ const Haydi = () => {
                     <div className='haydiRight'>
                          <img src={Section1} alt='' className='haydiRightSection1' />
                          <img src={Section2} alt='' className='haydiRightSection2' />
+                         <div className='haydiRightMobile'>
+                              <HaydiSVG />
+                         </div>
                     </div>
                </div>
           </div>

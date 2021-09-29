@@ -1,9 +1,8 @@
 import React from 'react'
 
-import { ReactComponent as Blob } from '../../icons/blob1.svg'
-
 import Section1 from '../../images/section1.png'
 import Section2 from '../../images/section2.png'
+import BlobPNG from '../../images/blob.png'
 
 import './merhaba.css'
 
@@ -24,14 +23,16 @@ const Merhaba = () => {
                          <div className='merhabaLeftButton'>Hemen Indir</div>
                     </div>
                     <div className='merhabaRight'>
-                         <div className='merhabaRightBackground'>
-                              <Blob />
-                         </div>
-                         <div className='merhabaRightImageSecond'>
-                              <img src={Section2} alt='' className='merhabaRightImageSecondIMG' />
-                         </div>
-                         <div className='merhabaRightImageFirst'>
-                              <img src={Section1} alt='' className='merhabaRightImageFirstIMG' />
+                         <div className='merhabaRightContainre'>
+                              <div className='merhabaRightBackground'>
+                                   <img src={BlobPNG} alt='error' className='merhabaRightBackgroundPNG' />
+                              </div>
+                              <div className='merhabaRightImageSecond'>
+                                   <img src={Section2} alt='' className='merhabaRightImageSecondIMG' />
+                              </div>
+                              <div className='merhabaRightImageFirst'>
+                                   <img src={Section1} alt='' className='merhabaRightImageFirstIMG' />
+                              </div>
                          </div>
                     </div>
                </div>

@@ -1,5 +1,5 @@
 .gunluk {
-     margin-top: 175px;
+     margin-top: 200px;
      display: flex;
      justify-content: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .gunlukItem {
-     width: 344px;
+     width: 100%;
      height: 235px;
      background: transparent linear-gradient(221deg, #075cb180 0%, #064c9278 12%, #0d0d0d 48%, #0d0d0d 100%) 0% 0%
           no-repeat padding-box;
@@ -39,4 +39,24 @@
 .gunlukItemText {
      font-size: var(--mediumText);
      color: var(--color-white);
+}
+
+@media only screen and (max-width: 1400px) {
+     .gunlukContainer {
+          width: 95%;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     .gunlukContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .gunlukItems {
+          flex: 100%;
+          margin-bottom: 24px;
+          width: 344px;
+     }
 }

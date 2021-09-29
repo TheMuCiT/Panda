@@ -11,14 +11,24 @@ import Section1 from '../../images/2section1.png'
 import './hukukcularla.css'
 
 const Hukukcularla = () => {
+     const HandlerApple = () => {
+          window.open('https://apps.apple.com/de/app/pandalan-hukuk-%C3%B6%C4%9Fren/id1563681531')
+     }
+
+     const HandlerGoogle = () => {
+          window.open('https://play.google.com/store/apps/details?id=com.lawquizgame&hl=de&gl=US')
+     }
+
      return (
           <div className='hukukcularla'>
                <div className='hukukcularlaContainer'>
                     <div className='hukukcularlaLeft'>
-                         <Blob className='hukukcularlaLeftBlob' />
-                         <img src={Section1} alt='' className='hukukcularlaLeftIMG' />
-                         <Message className='hukukcularlaLeftMessage' />
-                         <Chat className='hukukcularlaLeftChat' />
+                         <div className='test'>
+                              <Blob className='hukukcularlaLeftBlob' />
+                              <img src={Section1} alt='' className='hukukcularlaLeftIMG' />
+                              <Message className='hukukcularlaLeftMessage' />
+                              <Chat className='hukukcularlaLeftChat' />
+                         </div>
                     </div>
                     <div className='hukukcularlaRight'>
                          <div className='hukukcularlaRightHeader'>Hukukçularla sohbet et !</div>
@@ -27,7 +37,7 @@ const Hukukcularla = () => {
                          </div>
                          <div className='hukukcularlaRightText bold'> Uygulamayı Edin</div>
                          <div className='hukukcularlaRightIcons'>
-                              <div className='hukukcularlaRightIcon'>
+                              <div className='hukukcularlaRightIcon' onClick={HandlerApple}>
                                    <div className='hukukcularlaRightIconLeft'>
                                         <Apple />
                                    </div>
@@ -36,7 +46,7 @@ const Hukukcularla = () => {
                                         <div className='hukukcularlaRightIconRightText'>App store</div>
                                    </div>
                               </div>
-                              <div className='hukukcularlaRightIcon'>
+                              <div className='hukukcularlaRightIcon' onClick={HandlerGoogle}>
                                    <div className='hukukcularlaRightIconLeft'>
                                         <Google />
                                    </div>

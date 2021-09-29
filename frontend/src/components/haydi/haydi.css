@@ -1,5 +1,5 @@
 .haydi {
-     margin-top: 110px;
+     margin-top: 200px;
      display: flex;
      justify-content: center;
      background-color: #161616;
@@ -55,4 +55,102 @@
      position: absolute;
      top: 220px;
      left: 0;
+}
+.haydiRightMobile {
+     display: none;
+}
+
+@media only screen and (max-width: 1500px) {
+     .haydiRightSection1 {
+          width: 330px;
+          left: 340px;
+     }
+
+     .haydiRightSection2 {
+          width: 330px;
+     }
+}
+
+@media only screen and (max-width: 1400px) {
+     .haydiContainre {
+          width: 95%;
+     }
+
+     .haydiLeftHeader {
+          font-size: 44px;
+     }
+
+     .haydiRightSection1 {
+          width: 278px;
+          left: 290px;
+     }
+
+     .haydiRightSection2 {
+          width: 278px;
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+     .haydiLeft {
+          flex: 44%;
+     }
+
+     .haydiRightSection1 {
+          width: 250px;
+          left: 250px;
+     }
+
+     .haydiRightSection2 {
+          width: 250px;
+     }
+
+     .haydiRight {
+          flex: 56%;
+     }
+}
+
+@media only screen and (max-width: 1000px) {
+     .haydiContainre {
+          flex-direction: column-reverse;
+          display: flex;
+          justify-content: flex-end;
+     }
+
+     .haydi {
+          height: 909px;
+     }
+
+     .haydiRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          margin-bottom: -100px;
+     }
+
+     .haydiLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .haydiLeftHeader {
+          font-size: 36px;
+          text-align: center;
+     }
+
+     .haydiLeftText {
+          font-size: 15px;
+          text-align: center;
+     }
+
+     .haydiRightSection1,
+     .haydiRightSection2 {
+          display: none;
+     }
+
+     .haydiRightMobile {
+          display: none;
+     }
 }
