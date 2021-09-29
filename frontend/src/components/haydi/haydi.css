@@ -177,3 +177,10 @@
           right: 0;
      }
 }
+
+@media only screen and (max-width: 600px) {
+     .haydiRightSection3,
+     .haydiRightSection4 {
+          width: 180px;
+     }
+}
