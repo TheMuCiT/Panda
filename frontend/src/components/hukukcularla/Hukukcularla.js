@@ -24,19 +24,19 @@ const Hukukcularla = () => {
                <div className='hukukcularlaContainer'>
                     <div className='hukukcularlaLeft'>
                          <div className='test'>
-                              <Blob className='hukukcularlaLeftBlob' />
-                              <img src={Section1} alt='' className='hukukcularlaLeftIMG' />
-                              <Message className='hukukcularlaLeftMessage' />
-                              <Chat className='hukukcularlaLeftChat' />
+                              <Blob className='hukukcularlaLeftBlob fadeBackground' />
+                              <img src={Section1} alt='' className='hukukcularlaLeftIMG fadeIMG' />
+                              <Message className='hukukcularlaLeftMessage animationSecond fadeIMG2' />
+                              <Chat className='hukukcularlaLeftChat animationSecond fadeIMG3' />
                          </div>
                     </div>
                     <div className='hukukcularlaRight'>
-                         <div className='hukukcularlaRightHeader'>Hukukçularla sohbet et !</div>
-                         <div className='hukukcularlaRightText'>
+                         <div className='hukukcularlaRightHeader slideFirstForward'>Hukukçularla sohbet et !</div>
+                         <div className='hukukcularlaRightText slideSecondForward'>
                               Türkiye'nin her yerinden hukuk fakültesi öğrencileriyle sohbet et !
                          </div>
-                         <div className='hukukcularlaRightText bold'> Uygulamayı Edin</div>
-                         <div className='hukukcularlaRightIcons'>
+                         <div className='hukukcularlaRightText bold slideThirdForward'> Uygulamayı Edin</div>
+                         <div className='hukukcularlaRightIcons fadeButton'>
                               <div className='hukukcularlaRightIcon' onClick={HandlerApple}>
                                    <div className='hukukcularlaRightIconLeft'>
                                         <Apple />

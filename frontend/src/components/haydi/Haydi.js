@@ -20,13 +20,13 @@ const Haydi = () => {
           <div className='haydi'>
                <div className='haydiContainre'>
                     <div className='haydiLeft'>
-                         <div className='haydiLeftHeader'>Haydi Sen de Aramıza Katıl ve Öğren !</div>
-                         <div className='haydiLeftText'>
+                         <div className='haydiLeftHeader slideFirst'>Haydi Sen de Aramıza Katıl ve Öğren !</div>
+                         <div className='haydiLeftText slideSecond'>
                               Konularına göre ayrılmış her sınıftan hukuk derslerine dair özgün pratikler sizi
                               bekliyor !
                          </div>
-                         <div className='haydiLeftText bold'>Uygulamayı Edin</div>
-                         <div className='ogrenLeftIcons'>
+                         <div className='haydiLeftText bold slideThird'>Uygulamayı Edin</div>
+                         <div className='ogrenLeftIcons fadeButton'>
                               <div className='ogrenLeftIcon' onClick={HandlerApple}>
                                    <div className='ogrenLeftIconLeft'>
                                         <Apple className='ogrenLeftIconIcon' />
@@ -48,11 +48,11 @@ const Haydi = () => {
                          </div>
                     </div>
                     <div className='haydiRight'>
-                         <img src={Section4} alt='' className='haydiRightSection1' />
-                         <img src={Section2} alt='' className='haydiRightSection2' />
+                         <img src={Section4} alt='' className='haydiRightSection1 fadeIMG' />
+                         <img src={Section2} alt='' className='haydiRightSection2 fadeIMG2' />
                          <div className='haydiRightMobile'>
-                              <img src={Section3} alt='' className='haydiRightSection3' />
-                              <img src={Section4} alt='' className='haydiRightSection4' />
+                              <img src={Section3} alt='' className='haydiRightSection3 fadeIMG' />
+                              <img src={Section4} alt='' className='haydiRightSection4 fadeIMG2' />
                          </div>
                     </div>
                </div>

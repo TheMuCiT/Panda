@@ -70,6 +70,14 @@
      cursor: pointer;
 }
 
+.footerLeftLinksIcon:hover {
+     transform: scale(1.03, 1.03);
+}
+
+.footerLeftLinksIcon:active {
+     transform: scale(1.045, 1.045);
+}
+
 .footerLeftLinksIconLeft {
      flex: 35%;
      display: flex;

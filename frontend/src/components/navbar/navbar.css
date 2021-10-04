@@ -5,6 +5,7 @@
      align-items: center;
      justify-content: center;
      font-size: 1.2rem;
+     animation: fade 3s ease 0s 1 forwards;
      top: 0;
 }
 
@@ -31,6 +32,15 @@
      justify-content: center;
      align-items: center;
      color: var(--color-white);
+     cursor: pointer;
+}
+
+.navbarCenterLink:hover {
+     transform: scale(1.1, 1.1);
+}
+
+.navbarCenterLink:active {
+     transform: scale(1.2, 1.2);
 }
 
 .navbarRight {
@@ -45,6 +55,14 @@
      align-items: center;
      margin-left: 35px;
      cursor: pointer;
+}
+
+.navbarRightIcon:hover {
+     transform: scale(1.1, 1.1);
+}
+
+.navbarRightIcon:active {
+     transform: scale(1.2, 1.2);
 }
 
 .navbarCenterIcon {

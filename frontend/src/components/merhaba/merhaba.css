@@ -65,6 +65,13 @@
      cursor: pointer;
 }
 
+.merhabaLeftButton:hover {
+     transform: scale(1.02, 1.02);
+}
+.merhabaLeftButton:active {
+     transform: scale(1.035, 1.035);
+}
+
 /* RIGHT */
 
 .merhabaRightBackground {

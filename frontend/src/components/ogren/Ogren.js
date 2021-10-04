@@ -21,13 +21,13 @@ const Ogren = () => {
           <div className='ogren'>
                <div className='ogrenContainer'>
                     <div className='ogrenLeft'>
-                         <div className='ogrenLeftHeader'>Öğren ve Kendini Test Et !</div>
-                         <div className='ogrenLeftText'>
+                         <div className='ogrenLeftHeader slideFirst'>Öğren ve Kendini Test Et !</div>
+                         <div className='ogrenLeftText slideSecond'>
                               Derslere ve konularına göre ayrılmış özgün pratik sorularıyla hem sınavlarına çalış
                               hem de kendini test et !
                          </div>
-                         <div className='ogrenLeftText bold'>Uygulamayı Edin</div>
-                         <div className='ogrenLeftIcons'>
+                         <div className='ogrenLeftText bold slideThird'>Uygulamayı Edin</div>
+                         <div className='ogrenLeftIcons fadeButton'>
                               <div className='ogrenLeftIcon' onClick={HandlerApple}>
                                    <div className='ogrenLeftIconLeft'>
                                         <Apple className='ogrenLeftIconIcon' />
@@ -50,9 +50,9 @@ const Ogren = () => {
                     </div>
                     <div className='ogrenRight'>
                          <div className='test'>
-                              <img src={Section1} alt='Error' className='ogrenRightIMG' />
-                              <Achievement className='ogrenRightAchievement' />
-                              <Box className='ogrenRightBox' />
+                              <img src={Section1} alt='Error' className='ogrenRightIMG fadeBackground' />
+                              <Achievement className='ogrenRightAchievement animationThird fadeIMG' />
+                              <Box className='ogrenRightBox animationThird fadeIMG2' />
                          </div>
                     </div>
                </div>

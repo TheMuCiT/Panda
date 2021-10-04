@@ -59,6 +59,14 @@
      cursor: pointer;
 }
 
+.ogrenLeftIcon:hover {
+     transform: scale(1.03, 1.03);
+}
+
+.ogrenLeftIcon:active {
+     transform: scale(1.045, 1.045);
+}
+
 .ogrenLeftIconLeft {
      flex: 35%;
      display: flex;

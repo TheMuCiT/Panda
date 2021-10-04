@@ -1,4 +1,5 @@
 import React from 'react'
+import Animation from '../components/Animation/Animation'
 import Gunluk from '../components/gunluk/Gunluk'
 import Haydi from '../components/haydi/Haydi'
 import Hukukcularla from '../components/hukukcularla/Hukukcularla'
@@ -17,6 +18,7 @@ const Main = () => {
                <Ogren />
                <User />
                <Haydi />
+               <Animation />
           </div>
      )
 }

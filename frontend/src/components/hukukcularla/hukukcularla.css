@@ -105,6 +105,14 @@
      cursor: pointer;
 }
 
+.hukukcularlaRightIcon:hover {
+     transform: scale(1.03, 1.03);
+}
+
+.hukukcularlaRightIcon:active {
+     transform: scale(1.045, 1.045);
+}
+
 .hukukcularlaRightIconLeft {
      flex: 35%;
      display: flex;
