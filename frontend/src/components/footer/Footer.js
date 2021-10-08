@@ -54,15 +54,13 @@ const Footer = () => {
                                    </div>
                               </div>
                          </div>
-                         <div className='footerLeftC'>&copy; All Rights reserved 2021 Pandalan-hukuk</div>
+                         <div className='footerLeftC'>&copy; All Rights reserved 2021 Pandalan-Hukuk</div>
                     </div>
                     <div className='footerRight'>
                          <div className='footerRightColumn'>
                               <div className='footerRightTitle'>Home</div>
-                              <div className='footerRightLink'>BLOG</div>
                               <div className='footerRightLink'>İLETIŞIM</div>
                               <div className='footerRightLink '>EKİBİMİZ</div>
-                              <div className='footerRightLink '>SSS</div>
                          </div>
                          <div className='footerRightColumn'>
                               <div className='footerRightTitle'>Socials</div>
@@ -80,11 +78,12 @@ const Footer = () => {
                          <div className='footerRightColumn'>
                               <div className='footerRightTitle'>Legal</div>
                               <div className='footerRightLink'>Terms</div>
-                              <div className='footerRightLink'>FAQs</div>
+                              <div className='footerRightLink'>SSS</div>
                               <div className='footerRightLink'>Privacy & Policy</div>
+                              <div className='footerRightLink'>Support</div>
                          </div>
                     </div>
-                    <div className='footerLeftCMobile'>&copy; All Rights reserved 2021 Pandalan-hukuk</div>
+                    <div className='footerLeftCMobile'>&copy; All Rights reserved 2021 Pandalan-Hukuk</div>
                </div>
           </div>
      )

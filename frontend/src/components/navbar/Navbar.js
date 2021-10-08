@@ -68,9 +68,7 @@ const Navbar = () => {
                               </div>
                          </div>
                          <div className='navbarMobileMain'>
-                              <div className='navbarCenterLink'>BLOG</div>
                               <div className='navbarCenterLink'>İLETİŞİM</div>
-                              <div className='navbarCenterLink'>EKİPİMİZ</div>
                               <div className='navbarCenterLink'>SSS</div>
                          </div>
                     </div>
@@ -84,13 +82,11 @@ const Navbar = () => {
                <div className='navbarContainer'>
                     <div className='navbarLeft'></div>
                     <div className='navbarCenter'>
-                         <div className='navbarCenterLink'>BLOG</div>
                          <div className='navbarCenterLink'>İLETİŞİM</div>
                          <div className='navbarCenterIcon'>
                               <img src={BlobPNG} alt='error' className='navbarCenterIconBlob' />
                               <Panda className='navbarCenterIconPanda' />
                          </div>
-                         <div className='navbarCenterLink'>EKİPİMİZ</div>
                          <div className='navbarCenterLink'>SSS</div>
                     </div>
                     <div className='navbarRight'>
