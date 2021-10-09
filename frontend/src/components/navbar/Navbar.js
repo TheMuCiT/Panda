@@ -48,6 +48,13 @@ const Navbar = () => {
           body.style.overflowY = 'scroll'
      }
 
+     const handlerContact = () => {
+          window.open('https://pandalan-hukuk.webflow.io/contact')
+     }
+     const handlerFAQ = () => {
+          window.open('https://pandalan-hukuk.webflow.io/faqs')
+     }
+
      window.addEventListener('resize', WindowChange)
 
      return (
@@ -68,8 +75,12 @@ const Navbar = () => {
                               </div>
                          </div>
                          <div className='navbarMobileMain'>
-                              <div className='navbarCenterLink'>İLETİŞİM</div>
-                              <div className='navbarCenterLink'>SSS</div>
+                              <div className='navbarCenterLink' onClick={handlerContact}>
+                                   İLETİŞİM
+                              </div>
+                              <div className='navbarCenterLink' onClick={handlerFAQ}>
+                                   SSS
+                              </div>
                          </div>
                     </div>
                </div>
@@ -82,12 +93,16 @@ const Navbar = () => {
                <div className='navbarContainer'>
                     <div className='navbarLeft'></div>
                     <div className='navbarCenter'>
-                         <div className='navbarCenterLink'>İLETİŞİM</div>
+                         <div className='navbarCenterLink' onClick={handlerContact}>
+                              İLETİŞİM
+                         </div>
                          <div className='navbarCenterIcon'>
                               <img src={BlobPNG} alt='error' className='navbarCenterIconBlob' />
                               <Panda className='navbarCenterIconPanda' />
                          </div>
-                         <div className='navbarCenterLink'>SSS</div>
+                         <div className='navbarCenterLink' onClick={handlerFAQ}>
+                              SSS
+                         </div>
                     </div>
                     <div className='navbarRight'>
                          <div className='navbarRightIcon' onClick={HandlerFacebook}>

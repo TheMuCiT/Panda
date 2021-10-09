@@ -23,6 +23,14 @@ const Footer = () => {
      const handlerYoutube = () => {
           window.open('https://www.youtube.com/channel/UCXt1_b_5JIvTfp4Pf3nNHTw/channels?view=56&shelf_id=0')
      }
+
+     const handlerContact = () => {
+          window.open('https://pandalan-hukuk.webflow.io/contact')
+     }
+
+     const handlerFAQ = () => {
+          window.open('https://pandalan-hukuk.webflow.io/faqs')
+     }
      return (
           <div className='footer'>
                <div className='footerContainer'>
@@ -59,7 +67,9 @@ const Footer = () => {
                     <div className='footerRight'>
                          <div className='footerRightColumn'>
                               <div className='footerRightTitle'>Home</div>
-                              <div className='footerRightLink'>İLETIŞIM</div>
+                              <div className='footerRightLink' onClick={handlerContact}>
+                                   İLETIŞIM
+                              </div>
                               <div className='footerRightLink '>EKİBİMİZ</div>
                          </div>
                          <div className='footerRightColumn'>
@@ -78,7 +88,9 @@ const Footer = () => {
                          <div className='footerRightColumn'>
                               <div className='footerRightTitle'>Legal</div>
                               <div className='footerRightLink'>Terms</div>
-                              <div className='footerRightLink'>SSS</div>
+                              <div className='footerRightLink' onClick={handlerFAQ}>
+                                   SSS
+                              </div>
                               <div className='footerRightLink'>Privacy & Policy</div>
                               <div className='footerRightLink'>Support</div>
                          </div>
